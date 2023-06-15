@@ -1,0 +1,56 @@
+#Feasible Ways of Naming Variables:
+
+1) Use meaningful names: Choose names that accurately describe the purpose of the variable. 
+
+2) Follow a consistent naming convention: Use a consistent style or convention for naming variables, such as camelCase or snake_case. This improves code readability.
+
+3) Use lowercase letters: Example, "count" instead of "Count."
+
+4) Avoid using reserved keywords: Do not use reserved keywords as variable names, as they have special meanings.
+
+5) Use meaningful prefixes: In some cases, it can be helpful to use prefixes or suffixes to provide additional context or differentiate variables of similar types.
+
+Not Feasible Ways of Naming Variables:
+
+1) Using special characters: Variable names should not include special characters like @, $, or %, as they may cause syntax errors or confusion.
+
+2) Starting with a number: Variable names should not begin with a number, as it can lead to syntax errors.
+
+3) Using overly vague names: Avoid using variable names that are overly vague, as they do not provide clear information about the purpose of the variable
+
+4) Using excessively long names: Excessively long variable names can make the code harder to read and maintain.
+
+5) Using misleading or unrelated names: Avoid using variable names that are unrelated to their purpose or content. 
+
+Case Sensitive
+
+var = 5
+var_2 = 10
+
+print(var)    
+print(var_2)    
+
+result = var + var_2
+print(result)    
+
+var = 12
+
+print(var)
+
+a = 10
+b = 5
+c = 6
+d = 3
+e = 6
+
+first = a * b
+
+second = c - d
+
+third = first % second
+
+fourth = e * b
+
+x = third + fourth + a
+
+print("Answer is:", x)
